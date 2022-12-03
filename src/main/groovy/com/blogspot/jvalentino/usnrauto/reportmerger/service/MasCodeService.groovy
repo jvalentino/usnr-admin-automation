@@ -4,6 +4,7 @@ import com.blogspot.jvalentino.usnrauto.reportmerger.data.mas.MasCode;
 import com.blogspot.jvalentino.usnrauto.reportmerger.data.mas.MasCodes;
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.io.xml.DomDriver;
+import com.thoughtworks.xstream.security.AnyTypePermission
 
 class MasCodeService {
 
@@ -15,6 +16,7 @@ class MasCodeService {
     
     private static Map<String, MasCode> loadMasCodes() throws Exception {
         XStream xstream = new XStream(new DomDriver())
+        xstream.addPermission(AnyTypePermission.ANY)
         xstream.processAnnotations(MasCodes.class)
         
         InputStream is = MasCodeService.class.getClassLoader().getResourceAsStream("mas.xml")

@@ -98,6 +98,7 @@ class FormatUtil {
 	
 	static String dateToFormatTwoString(Date date) {
 		return date.format("dd-MMM-yyyy")
+		//return date.parse("dd-MMM-yyyy")
 	}
 	
 	static int daysBetweenDates(Date two, Date one) {

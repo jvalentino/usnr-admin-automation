@@ -55,7 +55,7 @@ class ManualInputServiceTest {
 		assertThat(report.secondaryColumnHeaders.get(i++), is("FY 2014 Activity"))
 		
 		List<ManualMemberRecord> members = report.getMembers()
-		assertThat(members.size, is(34))
+		assertThat(members.size(), is(34))
 		
 		i = 0
 		assertThat(members.get(i++).toString(), 
@@ -70,7 +70,7 @@ class ManualInputServiceTest {
 		assertThat(rules.ignorePeople.get(0), is("CTR1 Yankee Zulu"))
 		
 		assertThat(rules.ignoreCourses.size(), is(1))
-		assertThat(rules.ignoreCourses.get(0), is("IAAÊV12"))
+		assertThat(rules.ignoreCourses.get(0), is("IAAï¿½V12"))
 		
 		
 		assertThat(report.spreadsheetFooter, 
