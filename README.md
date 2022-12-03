@@ -25,6 +25,48 @@ The Mac application bundler is also completely busted, as it doesn't work in the
 
 As such this is here for histroical purposes, and incase someone wants to pick this back up and run with it.
 
+## Summary
+
+When you open the app, this is what you see:
+
+![screenshot-summary](./wiki/screenshot-summary.png)
+
+Each section on the left was at one time a standalone application that I just rolled into this.
+
+#### CAC Utility
+
+Since it was very common for someone's CAC to all the sudden stop working, and to have never worked when first issues, I came up with a way to debug card content:
+
+![screenshot-summary](./wiki/summary-cac.png)
+
+This means there is Java code for dealing with all of that dual authentication security mechanisms that probably can't be found anywhere else on the internet but here.
+
+#### SharePoint Downloader
+
+The Navy Reserves though it woudl be a great idea to have all units consistenly manage their business via SharePoint on NMCI. This worked great, until it didn't and all of SharePoint would go down. This became so much of a problem on Drill Weekends specifically, that I resorted to writing this application to iterate over an entire navy.mil CAC-protected SharePoint site, and download it. That way when we would find ourselves without SharePoint, we would just look the missing document on CD.
+
+![screenshot-summary](./wiki/summary-sharepoint.png)
+
+#### Report Merger
+
+The bulk of the documentation is about this particular funciton, as just getting the data to feed it is a science fair project unto itself.
+
+ The purpose of this tool is to combine member data from the following       locations:    
+
+- ​        **NRRM Smart Ruad**: Get an XLS file from exporting the NRRM         SmartRaud, open it in Excel, and save it in XSLX format.      
+- ​        **NRRM IMR**: Get the CSV file from exporting the Indivudal Medical         Readiness for your unit on NRRM.      
+- ​        **FLTMPS GMT Report**: Get the XLS file from export GMT status on         FLTMPS, open it in Excel, and save it in XSLX format      
+- ​        **FLTMPS e-Learning Report**: Get the XLS file from export         e-Learning status on FLTMPS, open it in Excel, and save it in XSLX         format      
+- ​        **FLTMPS Individual Augmentee Report**: Get the XLS file from         export IA status on FLTMPS, open it in Excel, and save it in XSLX         format      
+- ​        **Manual Inputs**: An XLSX file containing manual unit inputs, kept         in the PII section of SharePoint      
+
+​      Combining all of these reports will result in two things:: 
+
+1. ​        **Generated Individual Member Action Plan.pdf**: A member-per-page         printout that specifies all actions that a member needs to take in         terms of e-Learning courses, GMT courses, medical status, AT plans,         clearance, and more.      
+2. ​        **Generated Unit Tracker.xls**: A single spreadsheet that uses one         member per row to list all information in a single place.      
+
+![screenshot-summary](./wiki/summary-report.png)
+
 # Windows Installer
 
 Download the JAR file from **NO LONGER AVAILABLE**
