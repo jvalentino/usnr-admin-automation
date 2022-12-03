@@ -1,0 +1,254 @@
+<codes>
+	<code 
+		name="VOL" 
+		text="Volunteer for mobilization/recall."
+		impact="false"
+	/>
+	
+	<code 
+		name="VS1"
+		text="Volunteer Spare 1."
+		impact="false"
+	/>
+	
+	<code 
+		name="VS2"
+		text="Volunteer Spare 2."
+		impact="false"
+	/>
+	
+	<code 
+		name="VLI"
+		text="Volunteer for INCONUS only"
+		impact="true"
+	/>
+	
+	<code 
+		name="VLO"
+		text="Volunteer for OUTCONUS only"
+		impact="true"
+	/>
+	
+	<code
+		name="OAT"
+		text="Member on AT/ADT."
+		impact="true"
+	/>
+	
+	<code 
+		name="OWS"
+		text="Member on ADSW."
+		impact="true"
+	/>
+	
+	<code 
+		name="OWN"
+		text="ADT/ADSW spare code."
+		impact="true"
+	/>
+	
+	<code 
+		name="THS"
+		text="High school student under 20 years old."
+		impact="true"
+	/>
+	
+	<code 
+		name="TBX"
+		text="Not completed basic/equivalent training."
+		impact="true"
+	/>
+	
+	<code 
+		name="TCB"
+		text="CB-VET rating conversion incomplete"
+		impact="true"
+	/>
+	
+	<code 
+		name="TDX"
+		text="Completed IADT"
+		impact="true"
+	/>
+	
+	<code 
+		name="TRL"
+		text="Attending validated religious leader training."
+		impact="true"
+	/>
+	
+	<code 
+		name="TMS"
+		text="Attending authorized medical/dental school."
+		impact="true"
+	/>
+	
+	<code 
+		name="TRP"
+		text="RAMP/RESCORE/designator/rate conversion training."
+		impact="true"
+	/>
+	
+	<code 
+		name="TSP"
+		text="Stipend participant."
+		impact="true"
+	/>
+	
+	<code 
+		name="TBH"
+		text="NPS basic not completed IDT and HM A School"
+		impact="true"
+	/>
+	
+	<code 
+		name="TS1"
+		text="Training spare 1."
+		impact="true"
+	/>
+	
+	<code 
+		name="TS2"
+		text="Training spare 2."
+		impact="true"
+	/>
+	
+	<code 
+		name="TS3"
+		text="Training spare 3."
+		impact="true"
+	/>
+	
+	<code 
+		name="MP1"
+		text="First trimester of pregnancy."
+		impact="true"
+	/>
+	
+	<code 
+		name="MPC"
+		text="Second or third trimester of pregnancy."
+		impact="true"
+	/>
+	
+	<code 
+		name="MPP"
+		text="Nondeployable mother, child less than 4 months old or postpartum convalescence."
+		impact="true"
+	/>
+	
+	<code 
+		name="MNN"
+		text="Not physically qualified for deployment OUTCONUS."
+		impact="true"
+	/>
+	
+	<code 
+		name="MPQ"
+		text="Temporarily not physically qualified for mobilization."
+		impact="true"
+	/>
+	
+	<code 
+		name="MS1"
+		text="Medical spare 1."
+		impact="true"
+	/>
+	
+	<code 
+		name="MS2"
+		text="Medical spare 2."
+		impact="true"
+	/>
+	
+	<code 
+		name="MS3"
+		text="Medical spare 3."
+		impact="true"
+	/>
+	
+	<code 
+		name="MDF"
+		text="Dental Class IV"
+		impact="true"
+	/>
+	
+	<code 
+		name="MDT"
+		text="Dental Class III"
+		impact="true"
+	/>
+	
+	<code 
+		name="AAP"
+		text="Administrative action pending which would preclude mobilization."
+		impact="true"
+	/>
+	
+	<code 
+		name="AKE"
+		text="Key state/local employee."
+		impact="true"
+	/>
+	
+	<code 
+		name="ASD"
+		text="Member has active/Reserve spouse and family member(s)."
+		impact="true"
+	/>
+	
+	<code 
+		name="ASP"
+		text="Member is single parent with family member(s)."
+		impact="true"
+	/>
+	
+	<code 
+		name="ASF"
+		text="Member ineligible for force protection duties"
+		impact="true"
+	/>
+	
+	<code 
+		name="ASO"
+		text="Sole surviving son/daughter."
+		impact="true"
+	/>
+	
+	<code 
+		name="APB"
+		text="(UNSAT) Probationary drill status."
+		impact="true"
+	/>
+	
+	<code 
+		name="AUP"
+		text="Unsatisfactory participant."
+		impact="true"
+	/>
+	
+	<code 
+		name="AS1"
+		text="Administrative spare 1."
+		impact="true"
+	/>
+	
+	<code 
+		name="AS2"
+		text="Administrative spare 2."
+		impact="true"
+	/>
+	
+	<code 
+		name="AS3"
+		text="Administrative spare 3."
+		impact="true"
+	/>
+	
+	<code 
+		name="SAD"
+		text="CNRFC N35 will not identify or mobilize Sailors with 16 or more years of active duty without prior permission (OPNAV N13)"
+		impact="true"
+	/>
+
+</codes>

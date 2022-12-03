@@ -1,0 +1,49 @@
+
+NAME:			LTJG JOE SMITH
+REPORT DATE:	2014 12 09
+
+This document contains PII...
+
+------------------------------------------------- (FOLD LINE)
+
+GMT Courses to be completed
+
+Course 1		| Course 6
+Course 2		|
+Course 3		|
+Course 4		|
+Course 5		|
+
+e-Learning Courses to be Completed
+
+Course 1		| Course 6
+Course 2		|
+Course 3		|
+Course 4		|
+Course 5		|
+
+Individual Augmentee Courses to be Completed 
+
+Course 1		| Course 6
+Course 2		|
+Course 3		|
+Course 4		|
+Course 5		|
+
+Manpower Availability Status
+VOL: Volunteer for mobilization/recall.
+
+FY 2015 AT/ADT
+Preference: Wants IDWO/IWO training for 3 months in APR 2015
+Target: JNAC for 2 months start in JUN 2015
+
+FY 2014 AT/ADT/MOB/ADSW
+14D AT @ NIOC TX for DNEA
+
+Navigation
+
+* Report Merger
+	* What is it?
+	* Smart RUAD Example.xlsx
+	* Manual Inputs Example.xlsx
+* SMS Sender

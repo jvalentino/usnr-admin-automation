@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!--
+ 
+    iconIndex="0"
+	
+	-->
+
+<shortcuts>
+  <skipIfNotSupported/>
+  
+  <programGroup defaultName="USNR Admin Automation"
+                location="startMenu"/>
+  <shortcut
+    name="USNR Admin Automation"
+    target="$INSTALL_PATH\bin\usnr-admin-automation.bat"
+    workingDirectory="$INSTALL_PATH\bin"
+    description="This starts the application"
+	iconFile="$INSTALL_PATH\icon.ico"
+    initialState="normal"
+    programGroup="yes"
+    desktop="yes"
+    applications="yes"
+    startMenu="yes"
+    startup="no">
+
+    <createForPack name="USNR Admin Automation"/>
+  </shortcut>
+</shortcuts>

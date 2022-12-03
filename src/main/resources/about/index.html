@@ -1,0 +1,122 @@
+<h1>What is this?</h1>
+
+<p>This application is a collection of tools written to automate various administrative activities with in the USNR.
+It is not officially sponsored and does not store any information, transmit any information, or host any information
+online. All data must be supplied locally in order to comply with PII and DISA guidelines. <b>All tools in this application
+simply automate the activities of a human being on that human being's computer, using only the resources that human being
+has access to on that computer</b>.</p>
+
+<p>This application is a desktop application, meaning that it executes on your local machine. It is not a 
+website or web application and stores nothing online.</p>
+
+<h1>How?</h1>
+
+<p>This tool suite is a throw back to the era of the desktop application. While it would make more sense to
+build yet-another-web-application using the latest in cloud technologies, there are rules and regulations
+around storing and operating these systems when dealing with FOUO and PII data. A desktop application
+runs locally, stores locally, and in this case must have data supplied to it locally. Most importantly is solves
+a current need now, and can be easily modified.</p>
+
+<h1>Change History</h1>
+
+<p>1.24 - Mar 13, 2015 - No more having to convert XLS to XLSX</p>
+<ul>
+	<li>The <b>Report Merger</b> now has LibreOffice integration, which will allow you
+	to directly open XLS files instead of having to first convert them to XLSX.</li>
+	<li>LibreOffice is a free office style application, which can be downloaded from libreoffice.org</li>
+	<li>If you install it in the standard location this application will automatically detect it,
+	otherwise you will have to tell it where you installed LibreOffice.</li>
+</ul>
+
+<p>1.23 - Mar 11, 2015 - Being able to ignore Courses</p>
+<ul>
+	<li><b>Manual Inputs.xlsx</b> - The <b>Settings</b> sheet now accepts rules that can be 
+	used to ignore courses.</li>
+	<li>This is useful for those units that do IC IAA V12 instead of IAA V12</li>
+	<li>To ignore a course use Action: IGNORE COURSE Value: IC IAA V12</li>
+</ul>
+
+<p>1.22 - Mar 10, 2015 - Tracking Historical Data</p>
+<ul>
+	<li><b>Manual Inputs.xlsx</b> - After generating report there a <b>Historical</b>
+	tab will be added to the workbook for the current date.</li>
+	<li>Historical data comes from keeping the summary percentages for every tracked item
+	for the current date.</li>
+	<li>Every time reports are generated a new column for the current date will be
+	added to the <b>Historical</b> tab. </li>
+	<li>This was done so that you can see training percentages over time for whatever period
+	you want to track.</li>
+	<li>You can delete any of the date columns within the Historical tab to remove them,
+	and you can also just delete the Historical tab to reset history.</li>
+</ul>
+
+<p>1.21 - Mar 6, 2015 - Navy Websites</p>
+<ul>
+	<li>Added a list of Navy websites and an option in the left menu called <b>Navy Websites</b></li>
+</ul>
+
+<p>1.20 - Mar 6, 2015 - Mass Communication</p>
+<ul>
+	<li>The SMS Sender has been changed to the Mass Message Sender</li>
+	<li>It is capable of sending both text messages and emails</li>
+</ul>
+
+
+<p>1.19 - Mar 1, 2015</p>
+<ul>
+	<li><b>Report Merger</b> - After generating reports there is now a button to 
+	Send Training Notifications. This will allow you to email or SMS every selected individual
+	with the eLearning and GMT Category II training that they need to do online.</li>
+</ul>
+
+<p>1.18 - Feb 28, 2015</p>
+<ul>
+	<li><b>Generated Unit Tracker.xls</b> - Now contains all the inputs as other tabs within the workbook.
+	This was done because some people still want to look at the RUAD. This includes Manual Inputs,
+	eLearning, GMT, IA, medical, RUAD, MAS Code Definition, and a list of command warnings (Poly, PRD, medical).</li>
+</ul>
+
+<p>1.17 - Feb 25, 2015</p>
+<ul>
+	<li><b>Manual Inputs.xlsx</b> - Added worksheets called Rules and Settings. Rules can be used to ignore 
+	members from all types of reporting. Settings can be used to set the text that is displayed on the
+	footers of the Generated Unit Tracker XLS and the Generated PDF. </li>
+	<li><b>Generated Unit Tracker.xls</b> - This file is now in the Open XML format.</li>
+	<li><b>Generated Individual Member Action Plan.pdf</b> - PRD, Poly, and Medical warnings are
+	now displayed on their own page called the Command Warning page.</li>
+</ul>
+
+<p>1.16 - Feb 20, 2015</p>
+<ul>
+	<li><b>USNR-Automation-Software-Instructions.docx</b> - 
+	Added a document which contains all application instructions</li>
+	<li>The delivery mechanism for Mac is now a .App that is zipped. This was done because
+	the Mac DMG format does not allow files over 75 MB</li>
+	<li><b>SMS Sender</b> - When generating an email block, emails that are N/A will now be ignored.</li>
+</ul>
+
+<p>1.15 - Feb 17, 2015</p>
+<ul>
+	<li><b>Manual Inputs.xlsx</b> - Poly values of N/A will now be ignored, and not count against
+	unit metrics as the member not having a poly. This counts as them having a poly for the metric,
+	because it doesn't apply to the member for whatever reason.</li>
+	
+</ul>
+
+<p>1.14 - Feb 16, 2015</p>
+<ul>
+	<li>The version and build number are now displayed in the application title</li>
+	<li>The application icon now will show as a splashscreen while the application is bring loaded</li>
+	<li><b>Generated Individual Member Action Plan.pdf</b> - The first page will now link to 
+	the three methods for downloading and installing the application</li>
+</ul>
+
+<p>Feb 15, 2015</p>
+<ul>
+	<li><b>Load Last Inputs</b> - Added a button on the Report Merger that will load any of
+	the previously loaded inputs for you.</li>
+	
+</ul>
+
+
+

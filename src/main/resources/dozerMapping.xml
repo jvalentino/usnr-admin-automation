@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://dozer.sourceforge.net http://dozer.sourceforge.net/schema/beanmapping.xsd">
+	
+	<mapping map-id="mergeToSummary">
+		<class-a>com.blogspot.jvalentino.usnrauto.reportmerger.data.MergedReport</class-a>
+		<class-b>com.blogspot.jvalentino.usnrauto.reportmerger.data.summary.SummaryReport</class-b>
+		
+		<field custom-converter="com.blogspot.jvalentino.usnrauto.util.DozerFileMapping">
+		    <a>ruadFile</a>
+		    <b>ruadFile</b>
+		 </field>
+		 
+		 <field custom-converter="com.blogspot.jvalentino.usnrauto.util.DozerFileMapping">
+		    <a>eLearningFile</a>
+		    <b>eLearningFile</b>
+		 </field>
+		 
+		 <field custom-converter="com.blogspot.jvalentino.usnrauto.util.DozerFileMapping">
+		    <a>gmtFile</a>
+		    <b>gmtFile</b>
+		 </field>
+		 
+		 <field custom-converter="com.blogspot.jvalentino.usnrauto.util.DozerFileMapping">
+		    <a>iaFile</a>
+		    <b>iaFile</b>
+		 </field>
+		 
+		 <field custom-converter="com.blogspot.jvalentino.usnrauto.util.DozerFileMapping">
+		    <a>imrFile</a>
+		    <b>imrFile</b>
+		 </field>
+		 
+		 <field custom-converter="com.blogspot.jvalentino.usnrauto.util.DozerFileMapping">
+		    <a>manualFile</a>
+		    <b>manualFile</b>
+		 </field>
+		 
+		 <field custom-converter="com.blogspot.jvalentino.usnrauto.util.DozerFileMapping">
+		    <a>nrowsFile</a>
+		    <b>nrowsFile</b>
+		 </field>
+		 
+		 <field custom-converter="com.blogspot.jvalentino.usnrauto.util.DozerFileMapping">
+		    <a>esamsFile</a>
+		    <b>esamsFile</b>
+		 </field>
+		 
+	</mapping>
+</mappings>
